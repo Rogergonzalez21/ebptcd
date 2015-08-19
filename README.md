@@ -1,4 +1,4 @@
-# Escuela Bíblica para Todos - CD Version
+# Educación Bíblica para Todos - CD Version
 A small interface made for the "Escuela Bíblica para Todos" CD for "Editorial Bautista de Venezuela.
 
 Using:
