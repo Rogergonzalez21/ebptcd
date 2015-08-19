@@ -6,28 +6,19 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='')
     meta(name='author', content='')
-    link(rel='icon', href='../../favicon.ico')
+    link(rel='icon', href='static/img/favicon.png')
     title Eduación Bíblica para Todos
     link(href='static/css/bootstrap.min.css', rel='stylesheet')
     link(href='static/css/style.css', rel='stylesheet')    
   
-  body
-    .jumbotron
-      .container
-        h1 Logo del libro
-        |           
-        p
-          | This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
-        |           
-        p
-          a.btn.btn-primary.btn-lg(href='#', role='button') Learn more &raquo;
-    |       
-    .container
+  body(style='margin-top:50px; margin-bottom:50px;')
+    div(style='justify-content:center; align-items:center; display:flex;')
+      img(src='static/img/logo.png' width='75%')
+    .container(style='margin-top:50px;')
       block content
-      footer(style='margin-top:50px')
-        p &copy; 2015 Editorial Bautista de Venezuela – Todos los derechos reservados.
-        p Para una mejor experiencia recomendamos Mozila Firefox. Si no lo tiene, busquelo en el area de 
-          a(href='tools.html') Herramientas.
+      footer(style='margin-top:50px;')
+        p(style='display:flex;justify-content:center;align-items:center;') &copy; 2015 Editorial Bautista de Venezuela – Todos los derechos reservados.
+        p(style='display:flex;justify-content:center;align-items:center;') Para una mejor experiencia recomendamos Mozila Firefox. Si no lo tiene, busquelo en el area de Herramientas.
     // /container
     //
       Bootstrap core JavaScript
