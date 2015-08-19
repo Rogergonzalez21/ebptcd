@@ -1,5 +1,5 @@
 # Educación Bíblica para Todos - CD Version
-A small interface made for the "Escuela Bíblica para Todos" CD for "Editorial Bautista de Venezuela.
+A small interface made for the "Educación Bíblica para Todos" CD for "Editorial Bautista de Venezuela.
 
 Using:
 *   Bootstrap 3.3.5
