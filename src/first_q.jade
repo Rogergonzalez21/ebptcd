@@ -1,13 +1,15 @@
 extends base.jade
 
 block content
-  .buttons(style='justify-content:center; align-items:center; display:flex;')
-    a.btn.btn-lg.btn-success(href='static/pdf/intro.pdf' target='_blank') Introducción al trimestre
-    a.btn.btn-lg.btn-primary(href='static/pdf/lessons/first_q/plan_first_q.pdf' target='_blank' style='margin-left:20px;') 
-      |Plan del trimestre
+  .row
+    .col-xs-12.col-md-6(style='justify-content:center; align-items:center; display:flex; margin-top:10px;')
+      a.btn.btn-lg.btn-success(href='static/pdf/intro.pdf' target='_blank') Introducción al trimestre
+    .col-xs-12.col-md-6(style='justify-content:center; align-items:center; display:flex; margin-top:10px;')
+      a.btn.btn-lg.btn-primary(href='static/pdf/lessons/first_q/plan_first_q.pdf' target='_blank') 
+        |Plan del trimestre
 
   h3(style='justify-content:center; align-items:center; display:flex;') Dios me crea con Salud Integral
-  table.table.table-hover(style='margin-top:20px;')
+  table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
       th #
       th Nombre
@@ -40,7 +42,7 @@ block content
   
   h3(style='justify-content:center; align-items:center; display:flex;') Soy responsable de mi salud
 
-  table.table.table-hover(style='margin-top:20px;')
+  table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
       th #
       th Nombre
@@ -72,7 +74,7 @@ block content
 
   h3(style='justify-content:center; align-items:center; display:flex;') Mi estilo de vida saludable
 
-  table.table.table-hover(style='margin-top:20px;')
+  table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
       th #
       th Nombre
