@@ -2,13 +2,13 @@ extends base.jade
 
 block content
   .row
-    .col-xs-12.col-md-6(style='justify-content:center; align-items:center; display:flex; margin-top:10px;')
-      a.btn.btn-lg.btn-success(href='static/pdf/intro.pdf' target='_blank') Introducción al trimestre
-    .col-xs-12.col-md-6(style='justify-content:center; align-items:center; display:flex; margin-top:10px;')
-      a.btn.btn-lg.btn-primary(href='static/pdf/lessons/first_q/plan_first_q.pdf' target='_blank') 
+    .col-xs-12.col-md-6(style='margin-top:10px;')
+      a.center.btn.btn-lg.btn-success(href='static/pdf/intro.pdf' target='_blank') Introducción al trimestre
+    .col-xs-12.col-md-6(style='margin-top:10px;')
+      a.center.btn.btn-lg.btn-primary(href='static/pdf/lessons/first_q/plan_first_q.pdf' target='_blank') 
         |Plan del trimestre
 
-  h3(style='justify-content:center; align-items:center; display:flex;') Dios me crea con Salud Integral
+  h3.center Dios me crea con Salud Integral
   table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
       th #
@@ -40,7 +40,7 @@ block content
         a(href='static/pdf/lessons/first_q/estudio4.pdf' target='_blank') Estudio 4
 
   
-  h3(style='justify-content:center; align-items:center; display:flex;') Soy responsable de mi salud
+  h3.center Soy responsable de mi salud
 
   table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
@@ -72,7 +72,7 @@ block content
       td
         a(href='static/pdf/lessons/first_q/estudio8.pdf' target='_blank') Estudio 8
 
-  h3(style='justify-content:center; align-items:center; display:flex;') Mi estilo de vida saludable
+  h3.center Mi estilo de vida saludable
 
   table.table.table-hover.table-responsive(style='margin-top:20px;')
     tr
@@ -110,5 +110,5 @@ block content
       td
         a(href='static/pdf/lessons/first_q/estudio13.pdf' target='_blank') Estudio 13
 
-  div(style='display:flex;justify-content:center;align-items:center;')
-    a.btn.btn-lg.btn-primary(href='lessons.html' style='margin-top:50px;') Volver
+  .center
+    a.btn.btn-lg.btn-primary(href='lessons.html' style='margin-top:20px;') Volver
